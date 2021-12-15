@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=TestListaNumeros
+comment0.text=\r\n\ \ C\u00F3digo\ que\ testea\ la\ clase\ ListaNumeros\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Punto\ de\ entrada\ a\ la\ aplicaci\u00F3n\r\n\ Contiene\ c\u00F3digo\ para\ probar\ los\ m\u00E9todos\ de\ ListaNumeros\r\n
+comment2.params=lista
+comment2.target=void\ testAdd(ListaNumeros)
+comment3.params=lista
+comment3.target=void\ testToString(ListaNumeros)
+comment4.params=lista
+comment4.target=void\ testSegundoMaximo(ListaNumeros)
+comment5.params=lista
+comment5.target=void\ testSegundosPrincipio(ListaNumeros)
+comment6.params=lista\ numero
+comment6.target=void\ testBuscarBinario(ListaNumeros,\ int)
+comment7.params=
+comment7.target=void\ testDetectarEstrellas()
+comment8.params=
+comment8.target=void\ separador()
+numComments=9

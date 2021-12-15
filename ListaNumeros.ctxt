@@ -1,0 +1,42 @@
+#BlueJ class context
+comment0.target=ListaNumeros
+comment1.params=
+comment1.target=ListaNumeros()
+comment1.text=\r\n\ Constructor\ de\ la\ clase\ ListaNumeros\r\n\ Crea\ e\ inicializa\ adecuadamente\ los\r\n\ atributos\r\n\r\n\ @param\ n\ el\ tama\u00F1o\ m\u00E1ximo\ de\ la\ lista\r\n
+comment10.params=
+comment10.target=void\ segundosMaximosAlPrincipio()
+comment10.text=\r\n\ El\ m\u00E9todo\ coloca\ los\ valores\ que\ son\ segundos\ m\u00E1ximos\ al\ principio\ de\r\n\ la\ lista\ respetando\ el\ orden\ de\ aparici\u00F3n\ del\ resto\ de\ elementos\r\n\ \r\n\ No\ se\ puede\ usar\ ning\u00FAn\ otro\ array\ auxiliar\ ni\ hay\ que\ ordenar\ previamente\r\n\ la\ lista\r\n\ \r\n\ Si\ lista\ \=\ {21,\ -5,\ 28,\ -7,\ 28,\ 77,\ 77,\ -17,\ 21,\ 15,\ 28,\ 28,\ 77}\ \r\n\ lista\ queda\ \ {28,\ 28,\ 28,\ 28,\ 21,\ -5,\ -7,\ 77,\ 77,\ -17,\ 21,\ 15,\ 77}\ y\ se\ devuelve\ true\r\n\ \r\n\ Si\ lista\ \=\ {77,\ 21}\ lista\ queda\ {21,\ 77}\ y\ se\ devuelve\ true\r\n\ Si\ lista\ \=\ {21}\ lista\ queda\ igual\ y\ se\ devuelve\ false\r\n\ Si\ lista\ \=\ {21,\ 21,\ 21,\ 21}\ lista\ queda\ igual\ y\ se\ devuelve\ false\r\n\ \r\n\ @return\ true\ si\ se\ han\ colocado\ los\ segundos\ m\u00E1ximos\r\n\ \ \ \ \ \ \ \ \ \ false\ si\ no\ se\ han\ colocado\ los\ segundos\ m\u00E1ximos\ porque\ no\ hab\u00EDa\ ninguno\r\n
+comment11.params=
+comment11.target=void\ buscarBinario()
+comment11.text=\r\n\ @param\ numero\ b\u00FAsqueda\ binaria\ de\ \ numero\ en\ lista\r\n\ @return\ devuelve\ -1\ si\ no\ se\ encuentra\ o\ la\ posici\u00F3n\ en\ la\ que\ aparece\r\n\ \ \r\n\ El\ array\ original\ lista\ no\ se\ modifica\r\n\ Para\ ello\ crea\ \ previamente\ una\ copia\r\n\ de\ lista\ y\ trabaja\ \ con\ la\ copia\r\n\ \ \r\n\ Usa\ exclusivamente\ m\u00E9todos\ de\ la\ clase\ Arrays\r\n
+comment12.params=
+comment12.target=void\ crearBrillos()
+comment12.text=\r\n\ \r\n\ @return\ devuelve\ un\ array\ bidimensional\ de\ enteros\ de\ tama\u00F1o\ DIMENSION\r\n\ inicializado\ con\ valores\ aleatorios\ entre\ 0\ y\ 10\ inclusive\r\n\ \r\n\ Estos\ valores\ van\ a\ representar\ el\ brillo\ de\ una\ zona\ del\ espacio\r\n\ \r\n
+comment13.params=
+comment13.target=void\ detectarEstrellas()
+comment13.text=\r\n\ @param\ \ un\ array\ bidimensional\ brillos\ \r\n\ @return\ un\ nuevo\ array\ bidimensional\ de\ valores\ booleanos\r\n\ \ \ \ \ \ \ \ \ \ de\ las\ mismas\ dimensiones\ que\ el\ array\ brillos\ con\r\n\ \ \ \ \ \ \ \ \ \ valores\ true\ en\ las\ posiciones\ donde\ hay\ estrellas\r\n\ \r\n\ Una\ posici\u00F3n\ f,c\ del\ array\ brillos\ es\ una\ estrella\ \r\n\ si\ la\ suma\ del\ valor\ de\ los\ brillos\ de\ sus\ cuatro\ vecinos\ \r\n\ (arriba,\ abajo,\ derecha\ e\ izquierda)\ es\ mayor\ que\ 30\r\n\ \r\n\ Nota\ -\ \ No\ hay\ estrellas\ en\ los\ bordes\ del\ array\ brillos\r\n
+comment2.params=
+comment2.target=void\ addElemento()
+comment2.text=\r\n\ A\u00F1ade\ un\ valor\ al\ final\ de\ la\ lista\ \r\n\ siempre\ que\ no\ est\u00E9\ completa\r\n\r\n\ @param\ numero\ el\ valor\ que\ se\ a\u00F1ade.\ \ \r\n\ @return\ true\ si\ se\ ha\ podido\ a\u00F1adir,\ false\ en\ otro\ caso\r\n
+comment3.params=
+comment3.target=void\ estaCompleta()
+comment3.text=\r\n\ @return\ true\ si\ la\ lista\ est\u00E1\ completa,\ false\ en\ otro\ caso\r\n\ Hacer\ sin\ if\r\n
+comment4.params=
+comment4.target=void\ estaVacia()
+comment4.text=\r\n\ @return\ true\ si\ la\ lista\ est\u00E1\ vac\u00EDa,\ false\ en\ otro\ caso.\r\n\ Hacer\ sin\ if\r\n
+comment5.params=
+comment5.target=void\ getTotalNumeros()
+comment5.text=\r\n\ @return\ el\ n\u00BA\ de\ elementos\ realmente\ guardados\ en\ la\ lista\r\n
+comment6.params=
+comment6.target=void\ vaciarLista()
+comment6.text=\r\n\ Vac\u00EDa\ la\ lista\r\n
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\r\n\ @return\ una\ cadena\ con\ representaci\u00F3n\ textual\ de\ la\ lista\ \r\n\ (leer\ enunciado)\r\n\ \r\n\ Si\ la\ lista\ est\u00E1\ vac\u00EDa\ devuelve\ ""\r\n
+comment8.params=
+comment8.target=void\ escribirLista()
+comment8.text=\r\n\ Mostrar\ en\ pantalla\ la\ lista\r\n
+comment9.params=
+comment9.target=void\ segundoMaximo()
+comment9.text=\r\n\ \ \r\n\ @return\ el\ segundo\ valor\ m\u00E1ximo\ en\ la\ lista\r\n\ Cuando\ no\ haya\ un\ segundo\ m\u00E1ximo\ el\ m\u00E9todo\ \r\n\ devolver\u00E1\ el\ valor\ Integer.MIN_VALUE\r\n\ \r\n\ Si\ lista\ \=\ {21,\ -5,\ 28,\ -7,\ 28,\ 77,\ 77,\ -17,\ 21,\ 15,\ 28,\ 28,\ 77}\ se\ devuelve\ 28\r\n\ Si\ lista\ \=\ {21,\ -5,\ 28,\ -7,\ 77}\ se\ devuelve\ 28\r\n\ Si\ lista\ \=\ {77,\ 21}\ se\ devuelve\ 21\r\n\ Si\ lista\ \=\ {21}\ se\ devuelve\ Integer.MIN_VALUE\r\n\ Si\ lista\ \=\ {21,\ 21,\ 21,\ 21}\ se\ devuelve\ Integer.MIN_VALUE\r\n\ \r\n\ No\ se\ puede\ usar\ ning\u00FAn\ otro\ array\ auxiliar\ ni\ hay\ que\ ordenar\ previamente\r\n\ la\ lista\r\n
+numComments=14

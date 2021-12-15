@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Utilidades
+comment1.params=n\ ancho
+comment1.target=java.lang.String\ centrarNumero(int,\ int)
+comment1.text=\r\n\ \ Devuelve\ una\ cadena\ con\ el\ n\u00FAmero\ n\ centrado\r\n\ \ en\ el\ ancho\ especificado\r\n\ \ \r\n\ \ Si\ n\ \=\ 89\ y\ ancho\ \=\ 6\ devuelve\ "\ \ 89\ \ "\r\n\ \ Si\ n\ \=\ 89\ y\ ancho\ \=\ 10\ devuelve\ "\ \ \ \ 89\ \ \ \ "\r\n\ \ Si\ n\ \=\ 8\ y\ ancho\ \=\ 6\ devuelve\ "\ \ 8\ \ \ "\ \ \r\n
+numComments=2
